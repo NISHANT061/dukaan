@@ -1,0 +1,17 @@
+.see-all-products{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-radius:0.25rem;
+    width: 60%;
+    padding:0.5rem 1rem;
+    margin:1rem auto;
+    color: #4d4d4d;
+    cursor: pointer;
+    outline: 0;
+    border:none;
+    align-items: center;
+}
+.see-all-products img{
+    display: block;
+}

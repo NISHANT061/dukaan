@@ -1,0 +1,47 @@
+.best-sellers{
+    overflow: hidden;
+}
+.best-sellers-heading{
+    font-weight: 600;
+    text-align: left;
+    font-family: "GalanoGrotesqueMedium";
+    margin: 1rem;
+}
+.best-sellers-detail{
+    display: flex;
+    overflow: hidden;
+    /* margin: 1rem; */
+    /* justify-content: space-between; */
+}
+.best-sellers-detail >div{
+    margin:0 0.5rem;
+}
+.best-sellers-detail >div:first-of-type{
+    margin:0 0.5rem 0 1rem;
+}
+.best-seller-product{
+    position: relative;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7.5rem;
+    height:  7.5rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, .2);
+    color: #FFF;
+    display: flex;
+}
+.overlay >div{
+    align-self: flex-end;
+    margin:0.5rem;
+    font-weight: 500;
+}
+
+.best-sellers-detail img{
+    width: 7.5rem;
+    height:  7.5rem;
+    display: block;
+}

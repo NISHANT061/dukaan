@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "GalanoGrotesqueMedium";
+  src: local("GalanoGrotesqueMedium"),
+    url("./assets/fonts/GalanoGrotesqueMedium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "GalanoGrotesqueRegular";
+  src: local("GalanoGrotesqueRegular"),
+    url("./assets/fonts/GalanoGrotesqueRegular.ttf") format("truetype");
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  font-family:"GalanoGrotesqueMediun";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

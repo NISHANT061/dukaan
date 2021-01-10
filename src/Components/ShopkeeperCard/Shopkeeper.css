@@ -1,0 +1,22 @@
+.shopkeeper-card{
+    margin:1rem;
+    display: flex;
+}
+.shop-name{
+    font-family: "GalanoGrotesqueMedium";
+   font-weight: 600; 
+   font-size: 1rem;
+}
+.shop-details{
+    margin:0.5rem;
+    font-weight:500;
+}
+.shop-trust-level{
+    margin-top:0.3125rem;
+    display: flex;
+    color: #17b31b;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+

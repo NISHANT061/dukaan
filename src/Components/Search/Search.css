@@ -1,0 +1,13 @@
+.search-box{
+    margin:1rem;
+}
+input{
+    width: 100%;
+    border:none;
+    background-color: #f2f2f2;
+    color: #989898;
+    text-align: left;
+    padding:1rem 0 1rem 0.5rem;
+    border-radius: 0.5rem;
+    outline:0;
+}

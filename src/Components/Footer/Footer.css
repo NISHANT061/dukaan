@@ -1,0 +1,79 @@
+.footer{
+   padding:1rem;
+   background-color: #1a181e;
+}
+.addtional-features{
+    display: flex;
+    justify-content: space-between;
+    color:#FFF;
+    margin-bottom: 1rem;
+    /* font-size:0.875rem; */
+    /* text-align: center; */
+}
+.addtional-features img{
+    width:50px;
+    height: 50px;
+}
+.addtional-features > div{
+    flex:0 25%;
+}
+.return-policy-note{
+    font-size: 0.75rem;
+    font-weight: lighter;
+}
+.store-details{
+    text-align: center;
+    margin-top:0.5rem;
+    color:#FFFFFF;
+}
+.store-details-heading{
+    opacity: 0.6;
+    font-weight: lighter;
+    font-size:0.875rem;
+}
+.feature-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.store-name{
+    margin:0.5rem 0;
+}
+.chat-section{
+    display: flex;
+    align-items: center;
+}
+.whatsapp-chat-holder{
+        flex:1;
+        text-align: center;
+        width: auto;
+        margin: auto;
+        display: block;
+}
+.whatsapp-chat{
+    background-color: #49c759;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    color:#FFF;
+    justify-content: center;
+    padding:0.5rem 1rem;
+    align-items: center;
+    align-self: center;
+}
+.whatsapp-chat >div{
+    margin:0 0.125rem;
+}
+.whatsapp-chat img{
+    display: block;
+}
+.cube{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d4d4d;
+     width: 48px;
+        height: 48px;
+        align-content: center;
+        border-radius: 50%;
+}
